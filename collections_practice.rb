@@ -30,7 +30,9 @@ def kesha_maker(array)
 
 end
 
- def find_a
+ def find_a(array)
+   array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
+   array.keep_if {|arr| arr[0] == "a"}
 
  end
 
