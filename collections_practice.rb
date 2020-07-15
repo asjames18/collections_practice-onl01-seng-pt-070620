@@ -9,7 +9,8 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  %w{dogs cat Horses}.sort by { |array| array.length }
+  array = {"dogs", "cat", "Horses"}
+  array.sort by { |a,b| a[1]<=>b[1] }
 
 end
 
