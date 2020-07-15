@@ -17,7 +17,7 @@ end
 def swap_elements(array)
   array = ["blake", "ashley", "scott"]
 
-  array.swap { |a,b| a <=> b }
+  array.swap { |a,b| a1 <=> b2 }
 
 end
 
