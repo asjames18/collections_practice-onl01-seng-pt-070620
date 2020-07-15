@@ -26,21 +26,19 @@ end
 def kesha_maker(array)
   array = ["blake", "ashley", "scott"]
   array.collect {|arr| arr.delete(arr[2]).insert(2,"$")}
-
-
 end
 
  def find_a(array)
    array = ["apple", "orange", "pear", "avis", "arlo", "ascot" ]
    array.keep_if {|arr| arr[0] == "a"}
-
  end
 
- def sum_array
-
+ def sum_array(array)
+   array = [11,4,7,8,9,100,134]
+   array.inject(0, :+)
  end
 
- def add_s
+ def add_s(array)
 
  end
 #
