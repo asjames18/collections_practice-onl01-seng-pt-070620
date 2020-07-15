@@ -25,7 +25,7 @@ end
 
 def kesha_maker
   array = ["blake", "ashley", "scott"]
-  
+
 
 end
 
