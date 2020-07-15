@@ -17,7 +17,7 @@ end
 def swap_elements(array)
   array = ["blake", "ashley", "scott"]
 
-  array.swap_elements(1,2)
+  array.swap(1,2)
 
 end
 
