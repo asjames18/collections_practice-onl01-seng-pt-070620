@@ -40,7 +40,7 @@ end
 
  def add_s(array)
    array = ["hand","feet", "knee", "table"]
-   array.collect {|arr| arr==array[1] ? arr:arr.push "s"}
+   array.collect {|arr| arr==array[1] ? arr:arr << "s"}
 
  end
 #
